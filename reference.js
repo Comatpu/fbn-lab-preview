@@ -1,0 +1,13 @@
+pages.home=()=>`<div class="reference-main"><section class="reference-banner"><h1>식품생화학 및 분자영양학 연구실</h1><p>Food Biochemistry &amp; Molecular Nutrition Lab.</p></section><section class="ref-about"><h2 class="ref-heading">About Lab.<a href="#about" aria-label="연구실 소개 더보기">＋</a></h2><small>ABOUT</small><p>식품생화학 및 분자영양학 연구실은 경북대학교 식품공학부 강현주 교수님의 연구실입니다.<br>영양생화학, 면역 조절, 히스톤과 후성유전, 생리활성물질을 주요 연구 관심 분야로 다루고 있습니다.</p></section></div><div class="ref-bottom"><section><div class="ref-quick"><div class="ref-links"><a href="#research"><span>⚗</span>Research field</a><a href="#publications"><span>▤</span>Journal</a></div><a class="ref-contact" href="#contact"><strong>연구실 문의</strong>연락처 확인하기</a></div><h2>공지사항<a href="#news" aria-label="공지사항 더보기">＋</a></h2><a class="ref-notice" href="#news">BK21 경북대–동국대 공동 학술 심포지엄 발표<time>2026.06.29</time></a><a class="ref-notice" href="#news">연구실 소식이 등록될 공간입니다.<time>목업 예시</time></a></section><section><a href="#about" class="ref-gallery">연구실 사진 등록 예정<span class="gallery-caption">포토갤러리 Photo　＋</span></a></section></div>`;
+document.querySelector('.university').innerHTML='<img src="assets/knu-logo.png" alt="경북대학교">';
+document.querySelector('nav').innerHTML='<a href="#about" data-page="about"><span>연구실소개</span><small>Lab</small></a><a href="#people" data-page="people"><span>연구원소개</span><small>People</small></a><a href="#research" data-page="research"><span>연구활동</span><small>Research</small></a><a href="#publications" data-page="publications"><span>출판</span><small>Publication</small></a><a href="#news" data-page="news"><span>게시판</span><small>Board</small></a>';
+const sourceBtn=document.querySelector('#sourceButton');document.querySelector('.footer-right').append(sourceBtn);sourceBtn.className='footer-source';sourceBtn.textContent='목업 안내 · 자료 출처';
+document.querySelector('#sources h2').textContent='홈페이지 목업 안내';
+document.querySelector('#sources ul').innerHTML='<li>구성원 인적사항과 연구과제 소개는 시안입니다. 초기 저널 글은 경북대학교 공식 연구자 프로필을 참고했습니다.</li><li>영문 연구실 명칭과 소개 문구는 확인 전 초안입니다.</li><li>실험실 사진: Kaboompics / Pexels. 무료 웹사이트 사용과 편집이 허용되는 Pexels License 적용. 학교 로고는 경북대학교 로고입니다.</li><li>이 사이트는 정적 HTML·CSS·JavaScript 및 이미지 파일로 구성되어 있습니다.</li>';
+document.querySelector('#sources h3').insertAdjacentHTML('afterend','<a href="https://fmbl.knu.ac.kr/" target="_blank" rel="noopener">디자인 참고: 식품미생물생명공학연구실 ↗</a>');
+function fitReferenceLayout(){const available=document.documentElement.clientWidth;const scale=Math.min(1,available/1640,window.innerHeight/900);document.documentElement.style.setProperty('--page-scale',String(scale));document.documentElement.style.setProperty('--canvas-width',(available/scale)+'px');} fitReferenceLayout(); window.addEventListener('resize',fitReferenceLayout); render();
+
+
+
+
+

@@ -1,0 +1,14 @@
+html:has(body.one-page),body.one-page{overflow:hidden!important;scroll-snap-type:none!important}
+body.one-page #content{position:relative;box-sizing:border-box;overflow:hidden!important;min-height:0!important}
+.panel-live{position:absolute;inset:0;box-sizing:border-box;background:white;overflow:hidden}
+.panel-live.panel-exit{z-index:2;pointer-events:none}
+.panel-live .page-content{overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain}
+.panel-live .student-sheet[hidden]{display:none!important}
+.panel-live .roster-content{overflow:hidden}
+.panel-live .sub-visual{display:none}
+body.one-page .panel-live .page-intro.entrance,body.one-page .panel-live .page-content.entrance{opacity:1;transform:none;animation:none}
+body.one-page .panel-live .reference-main{height:100%;box-sizing:border-box}
+body.one-page .panel-live .reference-banner{height:100%!important}
+body.one-page.at-home .scroll-gauge{visibility:hidden}
+.sidebar .scroll-needle{transition:none}
+@media(prefers-reduced-motion:reduce){.panel-live{scroll-behavior:auto}}

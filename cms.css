@@ -1,0 +1,350 @@
+.home-shortcut #admin-login{cursor:pointer}.about-top{display:grid;grid-template-columns:320px 1fr;gap:38px;align-items:center;padding-bottom:38px;border-bottom:1px solid #ddd;margin-bottom:35px}.about-top>img{width:320px;height:240px;object-fit:cover}.about-top h2{font-size:29px;font-weight:500;white-space:nowrap;letter-spacing:-1px;margin:15px 0}.about-top p{font-size:15px;line-height:1.9;white-space:pre-line}.published-body{font-size:16px;line-height:1.9;overflow-wrap:anywhere}.published-body h2{font-size:24px;font-weight:500;border-bottom:1px solid #eee;padding-bottom:12px;margin:35px 0 20px}.published-body p{white-space:pre-wrap;margin:20px 0}.article-image{margin:30px 0}.article-image img{max-width:100%;height:auto;display:block}.article-image figcaption{font-size:13px;color:#888;margin-top:10px}.ref-about>p{white-space:pre-line}#admin-bar{padding:16px 55px;background:#f6f0db;border-bottom:1px solid #d8c887;color:#786329;display:flex;gap:20px;align-items:center;font-size:14px}#admin-bar[hidden]{display:none}#admin-bar button{border:1px solid #b6a26b;background:white;color:#6e5a24;padding:7px 14px}#save-status{font-size:12px;color:#7e765e}.cms-dialog{zoom:calc(1 / var(--page-scale));font:14px/1.6 'Noto Sans KR',sans-serif;background:#fff;border:1px solid #ddd;color:#333;padding:28px;max-height:88vh;overflow:auto}.cms-dialog label{display:block;font-size:13px;color:#555;margin:14px 0}.cms-dialog input:not([type=file]),.cms-dialog textarea{display:block;width:100%;font:14px/1.7 'Noto Sans KR',sans-serif;border:1px solid #ccc;border-radius:2px;background:white;padding:10px 12px;color:#333;box-sizing:border-box}.cms-dialog input[type=file]{display:block;margin-top:10px;max-width:100%;font-size:12px}.cms-dialog textarea{resize:vertical;min-height:100px}.cms-dialog button{font:13px 'Noto Sans KR',sans-serif;background:#fff;border:1px solid #cfcfcf;padding:9px 14px;color:#555;cursor:pointer}.cms-dialog button:disabled{opacity:.45;cursor:default}.cms-dialog .cms-primary{background:#8f7734;color:white;border-color:#8f7734}.cms-dialog h2{font-size:22px;margin:0 0 15px;font-weight:500}.cms-dialog .cms-close{position:absolute;right:17px;top:14px;font-size:24px;border:0;background:none;padding:0 6px}.cms-dialog p{font-size:13px;line-height:1.8}.cms-dialog [hidden]{display:none}.auth-dialog{width:420px;max-width:calc(100vw - 28px)}.cms-error{color:#a94a31!important;font-size:12px!important;white-space:pre-wrap}.editor-dialog{width:800px;max-width:calc(100vw - 28px)}.editor-head{padding-right:30px}.editor-head small{color:#99804c;font-size:12px}.editor-help{background:#f6f4ed;padding:10px 15px}.edit-block{margin:18px 0;border:1px solid #ddd;padding:17px;background:#fafafa}.edit-block h3{font-size:15px;font-weight:500;margin:0 0 15px}.block-head{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:12px}.block-head b{font-size:13px;font-weight:500}.block-head button{padding:4px 9px;margin-left:4px;font-size:12px}.edit-block img{max-width:100%;max-height:260px;object-fit:contain;display:block;margin:10px 0}.add-blocks{display:flex;gap:10px;flex-wrap:wrap;margin:20px 0}.editor-foot{display:flex;align-items:center;justify-content:flex-end;gap:10px;position:sticky;bottom:-28px;background:#fff;padding:15px 0;border-top:1px solid #ddd}.editor-foot .cms-error{margin-right:auto}.cms-dialog::backdrop{background:#0007}
+/* Fixed content frames: editor and published page share the same geometry. */
+.about-top{align-items:start}.fixed-slot{min-width:0}.slot-frame{position:relative;width:100%;min-height:40px;overflow:hidden;text-align:left}.slot-stage{position:relative;transform-origin:top left;font-family:'Noto Sans KR',sans-serif;color:#333}.slot-text{position:relative;min-height:40px;outline:none;overflow-wrap:anywhere;white-space:pre-wrap;font:16px/1.8 'Noto Sans KR',sans-serif;padding-bottom:12px}.slot-text p{font:inherit!important;letter-spacing:normal!important;line-height:1.8!important;white-space:pre-wrap!important;margin:0 0 8px!important;max-width:none!important;color:inherit!important}.slot-text span,.slot-text font{font-family:inherit!important;line-height:1.8}.slot-images{position:absolute;inset:0;pointer-events:none}.slot-image{position:absolute;pointer-events:auto;outline:none;overflow:visible}.slot-image>img{display:block!important;width:100%!important;height:100%!important;max-width:none!important;max-height:none!important;object-fit:cover;margin:0!important;user-select:none}.resize-image{display:none}.slot-label{display:none}.banner-slot{position:absolute;inset:0;z-index:0}.reference-banner{overflow:hidden;background:#eee}.reference-banner>h1,.reference-banner>p{position:relative;z-index:1;pointer-events:none}.home-extra:has(.slot-text p:only-child span:only-child br:only-child){padding-top:0;padding-bottom:0}.professor{position:relative}.professor>.profile-link{grid-column:2}.gallery-photo:has(.slot-frame){height:auto}.about-top h2{margin-top:15px}.fixed-slot:has([data-region="map"]){background:#f1efe8}.fixed-slot:has([data-region^="photo"]){background:#fafafa}
+.editor-dialog{width:1240px;max-width:calc(100vw - 30px);padding:24px;max-height:94vh;overflow:auto}.editor-dialog .editor-head h2{font-size:20px}.editor-help{margin:8px 0 12px!important;font-size:12px!important}.editor-toolbar{position:sticky;top:-24px;z-index:20;background:#f7f5ee;border:1px solid #d5ceba;display:flex;gap:8px;align-items:center;flex-wrap:wrap;padding:10px;margin-bottom:20px}.editor-toolbar button{padding:7px 10px;white-space:nowrap}.editor-toolbar label{display:flex;align-items:center;gap:5px;margin:0;font-size:12px;white-space:nowrap}.editor-toolbar select{font:13px inherit;padding:5px;border:1px solid #ccc;background:white}.editor-toolbar input[type=number]{display:inline-block;width:65px;padding:4px;font-size:12px}.editor-toolbar #active-label{font-size:12px;font-weight:600;color:#776333;margin-right:6px}.editor-toolbar [aria-pressed=true]{background:#e4d9b5;border-color:#9b8447}.image-tools{display:flex;gap:7px;align-items:center;flex-wrap:wrap}.image-tools[hidden]{display:none}#visual-editor{background:white;min-width:0}#visual-editor .page-intro{padding:10px 0 20px;background:#fff}#visual-editor .page-intro h1{font-size:25px}#visual-editor .breadcrumbs{display:none}#visual-editor .page-content{padding:10px 0 25px}#visual-editor .about-top{grid-template-columns:27.6% minmax(0,1fr);gap:3.3%;align-items:start;margin-bottom:20px;padding-bottom:24px}#visual-editor .about-top h2{font-size:clamp(14px,2vw,27px);white-space:nowrap;margin:12px 0}#visual-editor .slot-label{display:block;background:#f4f1e8;color:#877344;font-size:11px;padding:5px 8px;border:1px solid #e3dece;border-bottom:0}#visual-editor .fixed-slot{margin:0 0 12px}#visual-editor .slot-frame{border:1px solid #d9d4c7;min-height:44px;cursor:text}#visual-editor .active-slot{outline:2px solid #b59b50;outline-offset:-2px}#visual-editor .slot-text{min-height:40px;cursor:text}#visual-editor .slot-image{cursor:move;touch-action:none}#visual-editor .selected-image{outline:3px solid #b18b24;z-index:3}#visual-editor .resize-image{display:block;position:absolute;right:-6px;bottom:-6px;width:15px;height:15px;padding:0;border:2px solid #fff;background:#a68329;cursor:nwse-resize;touch-action:none}#visual-editor .slot-image:not(.selected-image) .resize-image{display:none}#visual-editor .reference-main{padding:10px 0;background:white}#visual-editor .reference-banner{width:100%;height:auto;min-height:280px;aspect-ratio:2.9}#visual-editor .reference-banner h1{font-size:clamp(15px,2.7vw,36px);line-height:1.5}#visual-editor .reference-banner p{font-size:12px;letter-spacing:2px}#visual-editor .banner-slot .slot-label{display:none}#visual-editor .ref-bottom{display:none}#visual-editor .professor{grid-template-columns:18% 1fr;gap:25px}#visual-editor .members,#visual-editor .gallery-placeholders{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}#visual-editor .contact-grid{grid-template-columns:1fr 1fr;gap:25px}#visual-editor .research-detail{grid-template-columns:45px minmax(0,1fr);gap:15px}#visual-editor .related-links a{pointer-events:none}.editor-foot{bottom:-24px;z-index:21;margin-top:12px}.editor-dialog .slot-text[contenteditable]:empty:before{content:'여기에 글을 입력하세요';color:#aaa}.editor-dialog .slot-frame:focus-within{border-color:#a58d45}.editor-dialog button:focus-visible{outline:2px solid #a58d45;outline-offset:2px}.editor-dialog #visual-editor [inert]{opacity:.65}
+.cms-dialog [hidden]{display:none!important}
+#visual-editor .pub-controls{display:none}
+/* The same content-box treatment applies to every editable area. */
+.fixed-slot:has([data-region^="photo"]),.fixed-slot:has([data-region="map"]){background:transparent}
+.slot-text p{margin-bottom:14px!important}.slot-text p:has(>span[style*="font-size:24px"]),.slot-text p:has(>span[style*="font-size:20px"]){margin-top:20px!important}.slot-text p:first-child{margin-top:0!important}
+.location-panel{min-width:0}.live-map{width:100%;height:390px;border:1px solid #ddd;background:#efefef}.live-map iframe{display:block;width:100%;height:100%;border:0}.map-links{display:flex;gap:18px;padding:13px 0 20px;font-size:14px;color:#8f7734}.map-links a{text-decoration:underline;text-underline-offset:4px}.location-panel .fixed-slot{padding-top:10px;border-top:1px solid #e4e0d4}
+.ref-gallery{position:relative;overflow:hidden}.ref-gallery>img{width:100%;height:100%;object-fit:cover}.gallery-caption{position:absolute;bottom:0;left:0;right:0;padding:13px 18px;background:#0008;color:white}.gallery-placeholders>.fixed-slot,.gallery-placeholders>div{min-width:0}.gallery-placeholders .fixed-slot{border-bottom:1px solid #ddd;padding-bottom:14px}.resource-downloads{display:flex;gap:15px;flex-wrap:wrap;margin-top:30px;border-top:1px solid #ddd;padding-top:25px}.resource-downloads a{border:1px solid #c4b68b;padding:12px 18px;color:#897334;font-size:15px;background:#faf8f1}
+#visual-editor .live-map{height:260px;pointer-events:none}#visual-editor .map-links{pointer-events:none;font-size:12px}#visual-editor .slot-label{color:#7a6c48}.slot-frame[aria-label]{outline-offset:0}
+/* University-style page layouts, independent of the editing controls. */
+.lab-brand{white-space:nowrap!important;font-size:19px!important;letter-spacing:-1px!important;width:330px;margin-left:30px;line-height:1.5!important}.lab-brand>span{display:block;font-size:11px;font-weight:400;letter-spacing:0;line-height:1.5;margin-top:4px;color:#ffffffd9}.sub-visual{height:200px;margin:24px 55px 0;background:linear-gradient(#74642618,#74642618),url('assets/lab-banner.jpg') center 50%/cover}.page-intro{padding-top:24px;padding-bottom:25px;background:white}.page-intro h1{font-size:30px}.members{display:block!important}.member{display:grid!important;grid-template-columns:150px minmax(0,1fr)!important;gap:35px!important;padding:28px 0;border-bottom:1px solid #ddd;align-items:start}.member>.fixed-slot{min-width:0}.professor{padding:20px 0 35px}.professor .slot-text p{margin-bottom:16px!important}.framed-research{display:block!important;padding:0!important;border:0!important;margin-bottom:38px}.framed-research>h2{font-size:22px!important;margin:0 0 14px;font-weight:600}.framed-research>.fixed-slot{border:1px solid #ddd;padding:26px 30px}.framed-research .slot-text{color:#555}.project-list>.fixed-slot{padding:24px 30px;border-bottom:1px solid #ddd}.project-list>.fixed-slot:nth-of-type(odd){background:#f6f6f6}.record-heading{font-size:23px;margin:0 0 18px;font-weight:600}.project-list .slot-text p{margin:0 0 7px!important}.location-panel .live-map{height:420px}.home-extra{display:none}.about-top{padding-bottom:25px;margin-bottom:30px}.about-top .slot-text{color:#555}.footer-source{font-size:11px}
+#visual-editor .member{grid-template-columns:16% minmax(0,1fr)!important;gap:3%!important}#visual-editor .members{display:block!important}#visual-editor .sub-visual{display:none}#visual-editor .framed-research>.fixed-slot{padding:15px}#visual-editor .project-list{padding:0}#visual-editor .record-heading{font-size:20px}
+.board-top{display:flex;justify-content:space-between;align-items:center;font-size:15px;margin-bottom:20px}.board-top form{display:flex;gap:7px}.board-top input{width:260px;border:1px solid #ccc;padding:9px 12px;font-size:14px}.board-top button,.board-bottom button{padding:9px 18px;border:1px solid #bbb;background:white;color:#555;font-size:14px}.board-table{border-collapse:collapse;width:100%;font-size:15px;border-top:2px solid #8f7b43;text-align:center}.board-table th{font-weight:500;padding:17px 12px;background:#f7f7f7;border-bottom:1px solid #ccc}.board-table td{padding:21px 12px;border-bottom:1px solid #ddd}.board-table th:first-child{width:75px}.board-table th:nth-child(3){width:95px}.board-table th:last-child{width:125px}.board-table td:nth-child(2){text-align:left}.post-link{display:inline;text-align:left;border:0;background:none;padding:0;font:inherit;line-height:1.7;color:#444;cursor:pointer}.post-link:hover{text-decoration:underline}.file-mark{font-size:12px;color:#9d8a54;margin-left:12px}.board-bottom{display:flex;gap:10px;justify-content:flex-end;align-items:center;margin-top:25px}.board-bottom .board-primary{background:#8f7734;border-color:#8f7734;color:white}.board-page{border:1px solid #8f7734;padding:5px 12px;margin-right:auto;color:#8f7734}.board-empty{padding:55px!important;color:#888}.post-detail>h2{font-size:24px;font-weight:500;border-top:2px solid #8f7b43;background:#f8f8f8;padding:25px;margin:0;line-height:1.65}.post-meta{display:flex;gap:35px;padding:15px 25px;border-bottom:1px solid #ddd;color:#888;font-size:13px}.post-body{padding:35px 25px;min-height:230px;border-bottom:1px solid #ddd}.post-downloads{display:flex;gap:14px;flex-wrap:wrap;padding:18px 25px;background:#fafafa;font-size:14px}.post-downloads a{text-decoration:underline;color:#8f7734}.post-title-label{font-size:14px!important;margin:15px 0 24px!important}.post-title-label input{font-size:18px!important}#post-files{margin-top:28px;border-top:1px solid #ddd;padding:15px 0}#post-files input[type=file]{display:block!important}#post-files small{font-size:12px;color:#999}#post-files ul{list-style:none;padding:0}#post-files li{font-size:13px;padding:7px 0}#post-files li button{font-size:11px;padding:4px 8px;margin-left:8px}.attachment-status{font-size:12px;color:#93652b}
+#visual-editor .region-title-input{font-size:22px;font-weight:600;color:#333;padding:8px 11px;border:1px solid #cfc7ae;background:#fffdf8;line-height:1.5}#visual-editor .region-title-input:focus{outline:2px solid #b59b50;outline-offset:1px}
+#visual-editor .member{position:relative;padding-top:48px}.member-editor-actions{display:flex;justify-content:flex-end;padding:0 0 14px;border-bottom:1px solid #ddd}.member-editor-actions button{background:#8f7734;color:white;border-color:#8f7734}#visual-editor .remove-member{position:absolute;right:0;top:10px;padding:6px 11px;font-size:12px;color:#926348;border-color:#d6c5ba}.empty-members{padding:40px 0;font-size:15px;color:#888}
+.project-list .framed-research>.fixed-slot{background:white!important;padding:26px 30px;border:1px solid #ddd}.project-list .slot-text p{margin:0 0 14px!important}#visual-editor .slot-frame{overflow:visible}#visual-editor .slot-stage{overflow:visible}#visual-editor .slot-text{padding-bottom:24px;display:flow-root}.slot-text p{overflow-wrap:anywhere}
+/* Quill core is locally bundled. Use the site's fixed font and shared toolbar. */
+.rich-editor-host.ql-container{height:auto;border:0;font-family:'Noto Sans KR',sans-serif;font-size:16px}.slot-text .ql-editor{height:auto;min-height:48px;padding:0;overflow:visible;line-height:1.8;font:16px/1.8 'Noto Sans KR',sans-serif;white-space:pre-wrap;text-align:left;tab-size:4}.slot-text .ql-editor p{margin:0 0 14px!important;white-space:pre-wrap!important}.slot-text .ql-editor span,.slot-text .ql-editor strong{font-family:inherit!important}.slot-text .ql-editor strong{font-weight:700}.slot-text .ql-clipboard{display:none}.slot-text .ql-editor.ql-blank::before{left:0;right:0;font-style:normal;color:#aaa}.ql-container .ql-editor:focus{outline:none}
+
+/* Full-screen home panels. The interior pages and editing dialog keep their normal layout. */
+html:has(body.home-view){scroll-snap-type:y mandatory;scrollbar-width:none}
+html:has(body.home-view)::-webkit-scrollbar{display:none}
+body.home-view .workspace>footer{display:none}
+#content .home-panel{scroll-snap-align:start;scroll-snap-stop:always;min-height:calc(100vh / var(--page-scale))}
+#content .reference-main.home-panel{padding:0;background:#343735}
+#content .reference-banner{width:100%;height:calc(100vh / var(--page-scale));min-height:500px;background:#343735}
+#content .reference-banner .banner-slot,#content .reference-banner .slot-frame,#content .reference-banner .slot-stage,#content .reference-banner .slot-images{height:100%!important;min-height:100%!important}
+#content .reference-banner .slot-image:first-child{left:0!important;top:0!important;width:100%!important;height:100%!important;aspect-ratio:auto!important}
+#content .reference-banner::after{content:'';position:absolute;inset:0;background:rgba(31,35,36,.55);z-index:1;pointer-events:none}
+#content .reference-banner>h1,#content .reference-banner>p{z-index:2}
+#content .reference-banner>h1{font-size:clamp(36px,3.4vw,55px);line-height:1.45;letter-spacing:-2px;white-space:nowrap;margin:0 30px 18px}
+#content .reference-banner>p{font-size:17px;letter-spacing:3px}
+.home-scroll-hint{position:absolute;z-index:2;bottom:45px;left:0;right:0;text-align:center;color:#fff;font-size:11px;letter-spacing:2px}
+.home-scroll-hint span{display:block;font-size:24px;line-height:1.5}
+#content .home-introduction{padding:110px 100px;display:flex;flex-direction:column;justify-content:center;background:#f6f6f3}
+#content .home-introduction .ref-about{margin:0;max-width:1000px}
+#content .home-introduction .ref-heading{font-size:32px;margin-bottom:42px}
+#content .home-introduction .ref-about>small{font-size:13px}
+#content .home-introduction .slot-text{font-size:17px}
+#content .home-links{display:grid;grid-template-columns:repeat(2,1fr);gap:0 45px;margin-top:65px;max-width:1000px}
+#content .home-links a{display:flex;justify-content:space-between;padding:20px 0;border-bottom:1px solid #c7c2b4;font-size:18px;color:#555}
+#content .home-links a:hover{color:#927a36}
+@media(prefers-reduced-motion:reduce){html:has(body.home-view){scroll-behavior:auto}}
+
+/* Marker in the menu follows the section currently being viewed. */
+.home-shortcut a.current-location{color:#fff;font-weight:700;border-bottom:2px solid #fff}
+nav .menu-group.current-location>.group-toggle{position:relative;background:#0003}
+nav .menu-group.current-location>.group-toggle:before{content:'';position:absolute;left:0;top:0;bottom:0;width:5px;background:#fff}
+nav .submenu a.active{font-weight:700;color:#fff;background:#0003}
+nav .submenu a.active:after{content:'●';font-size:8px;float:right;margin-top:4px;color:#fff}
+
+/* A single continuous document; section frames grow with their contents. */
+html:has(body.one-page){scroll-snap-type:none!important;scrollbar-width:auto}
+html:has(body.one-page)::-webkit-scrollbar{display:block}
+body.one-page .workspace>footer{display:flex}
+
+
+
+
+.panel-live main{min-height:0!important}
+.panel-live .sub-visual{margin-top:0}
+
+/* Progress needle moves down as the visitor reads the long page. */
+nav .menu-group.current-location>.group-toggle{background:transparent}
+nav .menu-group.current-location>.group-toggle:before{display:none}
+nav .submenu a.active{background:transparent;font-weight:400}
+nav .submenu a.active:after{display:none}
+.home-shortcut a.current-location{font-weight:400;border:0;color:inherit}
+.sidebar .scroll-gauge{position:absolute;right:14px;top:195px;bottom:38px;width:1px;background:#ffffff70;pointer-events:none}
+.sidebar .scroll-needle{position:absolute;top:0;left:-5px;width:11px;height:11px;background:#fff;clip-path:polygon(0 0,100% 50%,0 100%);transform:translateY(-50%);transition:top .12s linear;filter:drop-shadow(0 0 2px #0008)}
+
+/* The continuous home advances between screen-sized sections with the wheel. */
+html:has(body.one-page){scroll-snap-type:y proximity!important}
+
+
+/* The selected submenu remains legible, and the pointer follows it. */
+nav .submenu a.active,nav .submenu a.active:hover{color:#715b24;background:#f1eee4;font-weight:700}
+nav .submenu a.active small{color:#806b37}
+.sidebar .scroll-gauge{top:0;bottom:0;right:14px;background:transparent}
+.sidebar .scroll-gauge:before{content:'';position:absolute;top:195px;bottom:38px;width:1px;background:#ffffff70}
+html:has(body.one-page){scroll-snap-type:none!important}
+
+.sidebar .scroll-needle{background:#6b5120;filter:drop-shadow(0 0 2px #fff)}
+
+/* Refined, restrained visual system for the continuous site. */
+body.one-page .sidebar{overflow-x:hidden!important;background:#292c28;box-shadow:3px 0 20px #1b1e1a18}
+body.one-page .university img{width:148px}
+body.one-page .lab-brand{color:#fff}
+body.one-page .lab-brand>span{color:#c5c6bb}
+body.one-page .home-shortcut{color:#c7c7bc}
+body.one-page nav .group-toggle{border-bottom:1px solid #ffffff25;color:#f4f3ec}
+body.one-page nav .group-toggle small{color:#b3b7aa}
+body.one-page nav .group-toggle:hover,body.one-page nav .menu-group.current-location>.group-toggle{background:#ffffff0b}
+body.one-page nav .submenu-inner{background:#343831}
+body.one-page nav .submenu a{color:#d9dbd3;background:#343831;border-color:#ffffff10}
+body.one-page nav .submenu a small{color:#a6aa9e}
+body.one-page nav .submenu a.active,body.one-page nav .submenu a.active:hover{color:#f9edc5;background:#474b3c}
+body.one-page nav .submenu a.active small{color:#d4c58c}
+body.one-page .scroll-needle{background:#ebd58b;filter:none}
+body.one-page .scroll-gauge:before{background:#ffffff50}
+.panel-live .sub-visual{display:none}
+.panel-live .page-intro{box-sizing:border-box;height:145px;padding:34px 65px 25px;background:#f5f5f1;border-bottom:1px solid #e6e6df}
+.panel-live .breadcrumbs{color:#999b92;font-size:11px;letter-spacing:.5px;margin-bottom:10px}
+.panel-live .page-intro h1{font-size:30px;line-height:1.45;font-weight:600;color:#282d29;letter-spacing:-1px}
+.panel-live .page-content{padding:42px 65px 65px}
+.panel-live .about-top{gap:42px}
+.panel-live .about-top h2{font-weight:600;color:#292e2a}
+.panel-live .eyebrow{color:#a68c43;letter-spacing:1.2px}
+.panel-live .framed-research>h2{color:#292e2a}
+.panel-live .framed-research>.fixed-slot{border-color:#e0e2da;background:#fafbf8}
+.panel-live .member{border-color:#e4e6df}
+#content .reference-banner::after{background:rgba(28,31,28,.58)}
+#content .home-introduction{background:#f5f5f1}
+#content .home-introduction .ref-heading{color:#8c793f}
+/* Students: four people per screen; content can grow when unusually long. */
+
+
+
+/* Original mustard sidebar, with a quieter indicator on the opening screen. */
+body.one-page .sidebar{background:linear-gradient(180deg,rgba(112,91,29,.74),rgba(128,99,19,.62)),url('assets/lab-sidebar.jpg') center/cover}
+body.one-page nav .group-toggle{border-color:#ffffff4d;color:#fff}
+body.one-page nav .group-toggle small{color:#ffffffd9}
+body.one-page nav .submenu-inner{background:#fff}
+body.one-page nav .submenu a{color:#555;background:#fff;border-color:#eee}
+body.one-page nav .submenu a small{color:#999}
+body.one-page nav .submenu a.active,body.one-page nav .submenu a.active:hover{color:#715b24;background:#f1eee4}
+body.one-page nav .submenu a.active small{color:#806b37}
+body.one-page .scroll-needle{background:#6b5120;filter:drop-shadow(0 0 2px #fff)}
+body.one-page.at-home .scroll-needle{opacity:0;top:0!important}
+/* Integrate the introduction into the hero without losing its editable text. */
+#content .reference-banner .ref-about{position:absolute;z-index:2;left:75px;right:75px;bottom:50px;margin:0;color:#fff;text-align:left;max-width:900px}
+#content .reference-banner .ref-about>h2,#content .reference-banner .ref-about>small{display:none}
+#content .reference-banner .ref-about .slot-stage{color:#fff}
+#content .reference-banner .ref-about .slot-text{font-size:15px;color:#fff}
+#content .reference-banner .ref-about .slot-text p{margin:0!important;line-height:1.7!important}
+#content .reference-banner .home-scroll-hint{left:auto;right:50px;bottom:48px;width:auto}
+/* Four members per screen, using the same arrangement for students and alumni. */
+/* Compact research entries retain the editable content while using the screen. */
+.panel-live[data-page="research"] .page-content{padding:20px 65px 30px}
+.panel-live[data-page="research"] .framed-research{margin:0 0 12px}
+.panel-live[data-page="research"] .framed-research>h2{font-size:21px!important;margin:0 0 5px}
+.panel-live[data-page="research"] .framed-research>.fixed-slot{padding:9px 22px}
+.panel-live[data-page="research"] .slot-text p{line-height:1.45!important;margin:0 0 3px!important}
+.panel-live[data-page="research"] .slot-text span{line-height:1.45!important}
+
+
+/* Larger editorial imagery, using the existing replaceable photo slots. */
+.panel-live[data-page="about"] .about-top{grid-template-columns:minmax(320px,42%) minmax(0,1fr);gap:45px;align-items:center}
+.panel-live[data-page="about"] .about-top h2{font-size:26px;letter-spacing:-1.2px}
+.panel-live[data-page="professor"] .professor{grid-template-columns:270px minmax(0,1fr);gap:45px;align-items:start}
+
+
+/* Keep the hero photo covering the screen as the layout scales. */
+body.one-page #content .reference-banner .banner-slot .slot-stage{transform:none!important;width:100%!important;height:100%!important}
+
+body.one-page #content .reference-banner>h1{font-size:48px}
+
+/* Fill wider windows and keep the scaled canvas within the viewport. */
+body.one-page{width:var(--canvas-width,1640px)}
+body.one-page .workspace{width:calc(var(--canvas-width,1640px) - 370px)}
+
+/* Keep scrolling functional without reserving or showing a scrollbar gutter. */
+html:has(body.one-page){scrollbar-width:none}
+html:has(body.one-page)::-webkit-scrollbar{display:none;width:0;height:0}
+
+/* Reserve room for four standard profiles on the reference screen. */
+.panel-live[data-page="projects"] .page-content{padding:20px 65px 30px}
+.panel-live[data-page="projects"] .framed-research{margin:0 0 12px}
+.panel-live[data-page="projects"] .framed-research>h2{font-size:21px!important;margin:0 0 5px}
+.panel-live[data-page="projects"] .framed-research>.fixed-slot{padding:9px 22px}
+.panel-live[data-page="projects"] .slot-text p{line-height:1.45!important;margin:0 0 3px!important}
+.panel-live[data-page="projects"] .slot-text span{line-height:1.45!important}
+
+/* Preserve the same content proportions on wide, short windows. */
+.panel-live .page-content{max-width:1270px;margin-left:auto;margin-right:auto}
+
+.panel-live[data-page="about"] .about-top{grid-template-columns:minmax(0,380px) minmax(0,1fr)}
+.panel-live[data-page="professor"] .professor .slot-text p{margin-bottom:8px!important}
+
+/* Show the English section name alongside the Korean title. */
+.panel-live .page-intro{display:flex;align-items:baseline;gap:15px}
+.panel-live .page-intro .breadcrumbs{display:none}
+.panel-live .page-intro h1{order:0;margin:0}
+.panel-live .page-intro .eyebrow{display:inline-block;order:1;font-size:12px;letter-spacing:.8px;font-weight:500;color:#999b92}
+
+.panel-live .page-intro{align-items:center;padding-top:0;padding-bottom:0}
+
+/* Enlarge the home introduction while retaining the author's text formatting. */
+#content .reference-banner .ref-about .slot-text{zoom:1.4;width:71.43%}
+
+/* Main-screen typography: larger, with space between the introduction and scroll cue. */
+body.one-page #content .hero-title{position:absolute;top:44%;left:40px;right:40px;translate:0 -50%;z-index:2;display:flex;flex-direction:column;align-items:center;gap:20px;text-align:center}
+body.one-page #content .hero-title h1{margin:0;max-width:1160px;font-size:56px;line-height:1.35;letter-spacing:0;white-space:normal}
+body.one-page #content .hero-title>p{margin:0;font-size:32px;line-height:1.4;letter-spacing:.5px}
+#content .reference-banner .ref-about{right:200px;max-width:900px}
+#content .reference-banner .ref-about .slot-text{zoom:1.7;width:58.82%}
+#content .reference-banner .home-scroll-hint{font-size:15px;letter-spacing:2px}
+#content .reference-banner .home-scroll-hint span{font-size:30px}
+
+/* Location information sits in an editable panel above the full-width map. */
+.panel-live[data-page="contact"] .contact-grid{display:flex;flex-direction:column;gap:22px}
+.panel-live[data-page="contact"] .contact-grid>.fixed-slot{box-sizing:border-box;width:100%;padding:18px 26px;background:#faf9f5;border:1px solid #d9d2bf;border-left:4px solid #aa934c}
+.panel-live[data-page="contact"] .contact-grid>.fixed-slot:before{content:'CONTACT INFORMATION';display:block;font-size:12px;letter-spacing:1px;font-weight:700;color:#8a773f;margin-bottom:8px}
+.panel-live[data-page="contact"] .location-panel{width:100%}
+.panel-live[data-page="contact"] .location-panel .live-map{height:440px}
+
+
+/* A panel has exactly one screen; only explicit member groups add screens. */
+body.one-page .workspace>footer{display:none}
+body.one-page #admin-bar{position:fixed;right:0;top:0;z-index:40}
+.panel-live{overflow:hidden;box-sizing:border-box;position:relative}
+.panel-live .page-content{transform-origin:top center;box-sizing:border-box}
+.panel-live #admin-bar{box-sizing:border-box}
+.panel-live[data-page="contact"] .page-content{height:calc(var(--screen-height,900px) - 145px - var(--panel-admin-height,0px));padding:28px 65px 32px}
+.panel-live[data-page="contact"] .contact-grid{height:100%;gap:20px}
+.panel-live[data-page="contact"] .contact-grid>.fixed-slot{flex:0 0 auto}
+.panel-live[data-page="contact"] .location-panel{flex:1;min-height:0}
+.panel-live[data-page="contact"] .location-panel .live-map{height:100%;box-sizing:border-box}
+
+/* Native key scrolling must not leave the view between panel stops. */
+html:has(body.one-page),html:has(.panel-live){overflow:hidden!important}
+
+/* Excess copy scrolls within its panel instead of shrinking or adding screens. */
+.panel-live .page-content{overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:#b5aa89 transparent;transform:none!important}
+.panel-live[data-page="contact"] .location-panel{min-height:260px}
+.editor-capacity{margin:8px 0 12px;padding:9px 12px;border-left:3px solid #aaa18a;background:#f7f6f1;font-size:12px;color:#716c5d}
+.editor-capacity.over-budget{background:#fff4e6;border-color:#b68136;color:#8b5a23}
+
+/* Keep the initial copy within the screen through spacing, retaining text sizes. */
+.panel-live .page-content{transform:none!important}
+.panel-live[data-page="about"] .page-content{padding-top:28px;padding-bottom:30px}
+.panel-live[data-page="about"] .about-top{grid-template-columns:minmax(0,320px) minmax(0,1fr);padding-bottom:16px;margin-bottom:18px}
+.panel-live[data-page="professor"] .page-content{padding-top:24px;padding-bottom:24px}
+.panel-live[data-page="professor"] .professor{padding-top:0;padding-bottom:0}
+.panel-live[data-page="professor"] .slot-text p,.panel-live[data-page="professor"] .slot-text span{line-height:1.6!important}
+
+/* The contact text uses its content height; the map fills the remaining screen. */
+.panel-live[data-page="contact"] .contact-grid>.fixed-slot{flex:0 1 auto;max-height:42%;overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin;padding:14px 22px}
+.panel-live[data-page="contact"] .location-panel{flex:1 0 0;min-height:0}
+.panel-live[data-page="contact"] .slot-text p{margin-bottom:8px!important}
+.panel-live[data-page="contact"] .slot-text p,.panel-live[data-page="contact"] .slot-text span{line-height:1.6!important}
+body.one-page .scroll-needle{transition:none}
+
+/* Embedded frames already render at their parent's scale. Do not zoom dialogs twice. */
+.panel-live .cms-dialog{zoom:1!important;box-sizing:border-box;max-width:calc(100vw - 32px);max-height:calc(100vh - 32px);margin:auto;inset:0;overflow:auto}
+.panel-live #visual-editor .page-content{height:auto!important;overflow:visible;transform:none!important;padding:10px 0 25px}
+.panel-live #visual-editor .contact-grid{display:flex;height:auto;flex-direction:column;gap:20px}
+.panel-live #visual-editor .contact-grid>.fixed-slot{flex:none;max-height:none;overflow:visible}
+.panel-live #visual-editor .location-panel{flex:none;min-height:0}
+.panel-live #visual-editor .location-panel .live-map{height:220px;min-height:0}
+
+
+.panel-live[data-page="contact"] .contact-grid>.fixed-slot:before{margin-bottom:8px}
+.panel-live[data-page="contact"] .slot-text p:first-child{margin-top:0!important}
+
+/* Student and alumni layout uses natural text flow, without editor transforms. */
+.panel-live .roster-content{padding:0 55px;margin:0 auto;width:100%;max-width:1270px;overflow:visible}
+.roster-content .student-sheet{box-sizing:border-box;height:var(--screen-height,900px);display:grid;grid-template-rows:repeat(var(--member-page-size,4),minmax(min-content,1fr));min-height:0;overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;scrollbar-width:thin}
+.roster-content .student-sheet.first-sheet{height:calc(var(--screen-height,900px) - 145px)}
+.roster-row{box-sizing:border-box;display:grid;grid-template-columns:min(calc(140px * var(--roster-scale,1)),calc((var(--screen-height,900px) - 145px) / var(--member-page-size,4) * .6)) minmax(0,1fr);gap:30px;align-items:center;padding:12px 0;min-width:0;min-height:min-content;border-bottom:1px solid #e4e6df}
+.roster-photo{width:100%;aspect-ratio:1 / 1.3;overflow:hidden;background:#f1f2f1}
+.roster-photo>img{display:block;width:100%;height:100%;object-fit:cover}
+.roster-bio{min-width:0;overflow-wrap:anywhere;color:#333}
+.roster-bio p{margin:0 0 4px;line-height:1.55;white-space:pre-wrap}
+.roster-bio p:last-child{margin-bottom:0}
+.roster-bio span{font-size:var(--run-size,18px);line-height:1.55}
+.roster-extra{display:block;max-width:100%;height:auto;margin-top:8px}
+
+.panel-live[data-page="about"] .about-top h2{margin:0 0 4px}
+.panel-live[data-page="about"] .about-top .lab-english-name{font-size:20px;line-height:1.5;margin:0 0 4px;white-space:normal}
+.panel-live[data-page="contact"] .contact-details p{margin:0;line-height:1.45;white-space:pre-line}
+.panel-live[data-page="contact"] .contact-details span{line-height:1.45}
+.panel-live[data-page="contact"] .contact-details p:nth-child(3){margin-top:14px}
+.panel-live[data-page="contact"] .contact-details p:last-child{margin-bottom:0}
+
+.panel-live[data-page="about"] .intro-photo{display:block;width:100%;aspect-ratio:4 / 3;object-fit:cover;object-position:center 85%}
+.panel-live[data-page="about"] .intro-copy p{margin:0;line-height:1.5;white-space:normal}
+.panel-live[data-page="about"] .intro-copy span{line-height:1.5}
+.panel-live[data-page="about"] .intro-copy p:last-child{margin-top:0}
+
+/* Align body copy across sections, retaining headings and the existing composition. */
+.roster-bio span[data-body-copy]{font-size:18px}
+.panel-live .board-table,.panel-live .post-downloads{font-size:18px}
+
+/* Member name and role share a line; students have a separate email strip. */
+.roster-bio .member-summary{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 9px;margin:0 0 12px;line-height:1.5;letter-spacing:0}
+.roster-bio .member-summary .member-name{font-size:20px;font-weight:600;line-height:1.5}
+.roster-bio .member-summary .member-role{font-size:16px;font-weight:400;line-height:1.5;color:#888}
+.roster-bio .member-email{display:flex;align-items:baseline;gap:12px;padding:8px 14px;background:#f6f6f6;font-size:18px;line-height:1.5;overflow-wrap:anywhere}
+.roster-bio .member-email>span{font-size:16px;color:#bbb}
+.roster-bio .member-email a{color:#555;text-decoration:none}
+.roster-bio .member-email a:hover{text-decoration:underline}
+
+/* Journal: two rows of figure-led cards, with four or six entries per view. */
+.panel-live[data-page="publications"] .page-content{padding:24px 55px 20px}
+#board-mount:has(.journal-gallery){height:100%}
+.journal-gallery{height:100%;min-height:0;display:flex;flex-direction:column;gap:18px}
+.journal-gallery .board-top{flex:0 0 auto;margin:0;gap:16px;font-size:18px}
+.journal-grid{flex:1;min-height:0;display:grid;grid-template-columns:repeat(var(--journal-columns,2),minmax(0,1fr));grid-template-rows:repeat(var(--journal-rows,2),minmax(0,1fr));gap:22px}
+.journal-card{display:grid;grid-template-rows:minmax(80px,1fr) auto auto;min-width:0;min-height:0;padding:0;border:1px solid #e3e3dc;background:#fff;color:#333;text-align:left;font:inherit;cursor:pointer;overflow-y:auto;scrollbar-width:thin;transition:border-color .2s,box-shadow .2s}
+.journal-card:hover{border-color:#af9c64;box-shadow:0 5px 16px #2e2c2210}
+.journal-card:focus-visible{outline:2px solid #a58d45;outline-offset:3px}
+.journal-figure{margin:0;min-height:0;overflow:hidden;background:#fafafa;border-bottom:1px solid #eeeee9}
+.journal-figure img{display:block;width:100%;height:100%;object-fit:contain;padding:12px;box-sizing:border-box}
+.journal-card h2{font-size:18px;line-height:1.5;font-weight:500;letter-spacing:0;margin:12px 16px 10px;overflow-wrap:anywhere}
+.journal-meta{padding:10px 16px;border-top:1px solid #eeeee9;font-size:14px;line-height:1.4;color:#8a8d87}
+.journal-no-figure{display:grid;place-items:center;min-height:0;background:#f1f1ec;color:#b8b8ac}
+.journal-no-figure svg{width:52px;height:65px;max-height:75%}
+.journal-pagination{flex:0 0 auto;display:flex;align-items:center;justify-content:center;gap:16px;font-size:18px;color:#666}
+.journal-pagination button{background:white;border:1px solid #ddd;color:#756337;padding:3px 14px;font-size:18px;cursor:pointer}
+.journal-pagination button:disabled{opacity:.3;cursor:default}
+.journal-detail-figure{margin:0 0 28px}
+.journal-detail-figure img{display:block;max-width:100%;max-height:500px;object-fit:contain;margin:auto}
+.journal-detail-figure figcaption{font-size:14px;color:#888;line-height:1.5;margin-top:12px}
+.journal-detail-figure a{color:#8c742b;text-decoration:underline}
+
+/* Full-bleed figures with a readable title overlay. */
+.journal-card{display:block;position:relative;overflow:hidden;border:0;background:#343630;color:#fff}
+.journal-card .journal-figure,.journal-card .journal-no-figure{position:absolute;inset:0;width:100%;height:100%;border:0}
+.journal-card .journal-figure img{width:100%;height:100%;object-fit:cover;padding:0}
+.journal-card::after{content:'';position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.80),rgba(0,0,0,.38) 65%);transition:opacity .25s ease;pointer-events:none}
+.journal-card:hover::after,.journal-card:focus-visible::after{opacity:.48}
+.journal-card h2{position:absolute;z-index:1;left:0;right:0;bottom:0;margin:0;padding:22px;color:#fff;text-shadow:0 1px 4px #000;max-height:100%;overflow:auto}
+.journal-card .journal-meta{display:none}
+.roster-bio .member-email .member-email-address{font-size:18px;color:#555}
+.panel-live[data-page="resources"] .board-top{font-size:18px}
+
+/* Gentle stagger when a section enters view. */
+@keyframes panel-float-in{from{opacity:0;translate:0 16px}to{opacity:1;translate:0 0}}
+.panel-live.panel-arriving .page-intro{animation:panel-float-in .55s ease-out both}
+.panel-live.panel-arriving .about-top,.panel-live.panel-arriving .professor,.panel-live.panel-arriving .contact-grid,.panel-live.panel-arriving .board-top,.panel-live.panel-arriving .board-table,.panel-live.panel-arriving .post-detail{animation:panel-float-in .65s ease-out .08s both}
+.panel-live.panel-arriving .roster-row,.panel-live.panel-arriving .framed-research,.panel-live.panel-arriving .journal-card{animation:panel-float-in .6s ease-out both}
+.panel-live.panel-arriving :is(.roster-row,.framed-research,.journal-card):nth-child(2){animation-delay:.08s}
+.panel-live.panel-arriving :is(.roster-row,.framed-research,.journal-card):nth-child(3){animation-delay:.16s}
+.panel-live.panel-arriving :is(.roster-row,.framed-research,.journal-card):nth-child(n+4){animation-delay:.24s}
+@media(prefers-reduced-motion:reduce){.panel-live.panel-arriving :is(.page-intro,.about-top,.professor,.contact-grid,.board-top,.board-table,.post-detail,.roster-row,.framed-research,.journal-card){animation:none}}
+/* Section animations start with navigation; bypass the iframe's delayed observer. */
+.panel-live .page-content.entrance,.panel-live .page-intro.entrance{opacity:1;transform:none;animation:none}
+.panel-live.panel-arriving .page-intro.entrance{animation:panel-float-in .8s cubic-bezier(.22,1,.36,1) both}
+.panel-live.panel-arriving :is(.about-top,.professor,.contact-grid,.board-top,.board-table,.post-detail,.roster-row,.framed-research,.journal-card){animation-duration:.85s;animation-timing-function:cubic-bezier(.22,1,.36,1)}
+.panel-live.panel-arriving :is(.about-top,.professor,.contact-grid,.board-top,.board-table,.post-detail){animation-delay:0s}
+.panel-live.panel-arriving :is(.roster-row,.framed-research,.journal-card):nth-child(2){animation-delay:.04s}
+.panel-live.panel-arriving :is(.roster-row,.framed-research,.journal-card):nth-child(3){animation-delay:.08s}
+.panel-live.panel-arriving :is(.roster-row,.framed-research,.journal-card):nth-child(n+4){animation-delay:.12s}
+@media(prefers-reduced-motion:reduce){.panel-live.panel-arriving .page-intro.entrance{animation:none}}
+.journal-detail .journal-reference{font-size:18px;line-height:1.8;margin:0;overflow-wrap:anywhere}
+.journal-detail .journal-reference a{color:#735f2d;text-decoration:underline;text-underline-offset:3px}
